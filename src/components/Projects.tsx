@@ -6,6 +6,7 @@ import atsImage from '../assets/ats.jpg';
 import ecommerceImage from '../assets/ecommerce.jpg';
 //import aiImage from '../assets/ai-genrator.jpg';
 import bankingImage from '../assets/banking.jpg';
+import cloudeImage from '../assets/cloudbox.png'; 
 
 const Projects = () => {
   const projects = [
@@ -51,7 +52,7 @@ const Projects = () => {
       tags: ["React", "TypeScript", "Javascript", "Tailwind CSS", "Node.js", "MongoDB", "Cloudinary","NodeMailer"],
       demoUrl: "https://cloudboxf.vercel.app/",
       codeUrl: "https://github.com/JineshJain711/CloudBox",
-      image: `src/assets/cloudbox.png`,
+      image: cloudeImage,
       stats: {
         stars: 94,
         forks: 31
