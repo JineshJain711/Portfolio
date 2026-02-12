@@ -46,6 +46,18 @@ const Projects = () => {
     //   }
     // },
     {
+      title: "CloudBox",
+      description: "CloudBox is a file storage and sharing platform using React.js and TypeScript.",
+      tags: ["React", "TypeScript", "Javascript", "Tailwind CSS", "Node.js", "MongoDB", "Cloudinary","NodeMailer"],
+      demoUrl: "https://cloudboxf.vercel.app/",
+      codeUrl: "https://github.com/JineshJain711/CloudBox",
+      image: `src/assets/cloudbox.png`,
+      stats: {
+        stars: 94,
+        forks: 31
+      }
+    },
+    {
       title: "Self Porfolio",
       description: "Self Porfolio project using React.js and TypeScript.",
       tags: ["React", "TypeScript", "Javascript", "Tailwind CSS"],
